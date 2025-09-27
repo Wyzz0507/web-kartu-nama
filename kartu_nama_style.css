@@ -1,0 +1,41 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: azure;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+.kartu_nama{
+    width: 450px;
+    height: 260px;
+    background-color: rgba(55, 91, 94, 0.705);
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.kartu_nama h2{
+    margin-top: 30px ;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.kartu_nama .Kuliah{
+    color: rgb(0, 0, 0);
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.kartu_nama .tombol{
+    background-color: rgb(71, 78, 78);
+    display: inline-block;
+    padding: 10px 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+
+}
